@@ -3,15 +3,48 @@
   <head>
     <title>Crypto Currency</title>
     <meta charset="utf-8">
+    <style>
+      body {
+        margin: 0px;
+      }
+      a {
+        color: black;
+        text-decoration: none;
+      }
+      h1 {
+        font-size: 300%;
+        text-align: center;
+        border-bottom: 3px solid gray;
+        margin: 0px;
+        padding-bottom: 20px;
+      }
+      #grid {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+      }
+      #grid ul {
+          border-right: 3px solid gray;
+          width: 150px;
+          margin: 0px;
+          padding-top: 20px;
+      }
+      #article{
+        padding-left: 0px;
+      }
+    </style>
   </head>
   <body>
     <h1><a href="index.html">Crypto Currency</a></h1>
-    <ol>
-      <li><a href="index.html">What is Crypto Currency?</a></li>
-      <li><a href="1.html">Upbit</a></li>
-      <li><a href="2.html">Binance</a></li>
-    </ol>
-    <h2>Crypto currency</h2>
-    <p>A cryptocurrency is a digital or virtual currency that is secured by cryptography, which makes it nearly impossible to counterfeit or double-spend. Many cryptocurrencies are decentralized networks based on blockchain technology—a distributed ledger enforced by a disparate network of computers. A defining feature of cryptocurrencies is that they are generally not issued by any central authority, rendering them theoretically immune to government interference or manipulation</p>
+    <div id="grid">
+      <ul>
+        <li><a href="index.html">What is Crypto Currency?</a></li>
+        <li><a href="1.html">Upbit</a></li>
+        <li><a href="2.html">Binance</a></li>
+      </ul>
+      <div id="article">
+        <h2>Crypto currency</h2>
+        <p>A cryptocurrency is a digital or virtual currency that is secured by cryptography, which makes it nearly impossible to counterfeit or double-spend. Many cryptocurrencies are decentralized networks based on blockchain technology—a distributed ledger enforced by a disparate network of computers. A defining feature of cryptocurrencies is that they are generally not issued by any central authority, rendering them theoretically immune to government interference or manipulation</p>
+      </div>
+    </div>
   </body>
 </html>
